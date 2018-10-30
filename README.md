@@ -1,3 +1,4 @@
+
 # Scantrad
 
 ## Objectif du projet
@@ -34,8 +35,11 @@ Il sera donc intéressant de garder le cheminement de l'utilisateur.
 ![Maquette lecture](https://github.com/Shadovokun/Scantrad/blob/master/Maquette1.PNG)
 ![Maquette traduction](https://github.com/Shadovokun/Scantrad/blob/master/Maquette2.PNG)
 ### Etapes pour le développement
-
+Après avoir cloné le projet en local :
 ``` bash
+# Se déplacer dans le dossier
+cd Scantrad
+
 # Installer les dépendances
 npm install
 
