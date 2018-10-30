@@ -17,15 +17,20 @@ Créer une application [**Electron**](https://electronjs.org/) capable de recevo
 
 ### Indications
 
- 1. Les extraits seront organisés par oeuvre, puis chapitre.
+ 1. Les oeuvres seront présentées par une image et leur titre sur la page d'accueil, si possible arrangées en grille.
+ > **Astuce :** Cards [*Bootstrap*](https://getbootstrap.com/docs/4.0/components/card/) ou [*Materialize*](https://materializecss.com/cards.html)
+
+ 3. Les extraits seront organisés par oeuvre, puis chapitre.
 Il sera donc intéressant de garder le cheminement de l'utilisateur.
-> **Exemple :** Breadcrumb [*Bootstrap*](https://getbootstrap.com/docs/4.1/components/breadcrumb/) ou [*Materialize*](https://materializecss.com/breadcrumbs.html) pour le visuel.  
+> **Astuce :** Breadcrumb [*Bootstrap*](https://getbootstrap.com/docs/4.1/components/breadcrumb/) ou [*Materialize*](https://materializecss.com/breadcrumbs.html) pour le visuel.  
 >[VueRouter](https://router.vuejs.org/) pour la dynamisation des pages.
 
- 2.  Il faudra pouvoir récupérer et envoyer des données depuis et vers un serveur REST qui fera le relais vers la base de données.
- > **Exemple :** Utilisation de [Axios](https://github.com/axios/axios) pour faciliter les *GET* et *POST* de données.
+ 3.  Il faudra pouvoir récupérer et envoyer des données depuis et vers un serveur REST qui fera le relais vers la base de données.
+ > **Astuce :** Utilisation de [Axios](https://github.com/axios/axios) pour faciliter les *GET* et *POST* de données.
 
 ### Maquettes
+![Maquette accueil](https://github.com/Shadovokun/Scantrad/blob/master/MaquetteAccueil.PNG)
+![Maquette fiche](https://github.com/Shadovokun/Scantrad/blob/master/MaquetteFiche.PNG)
 ![Maquette lecture](https://github.com/Shadovokun/Scantrad/blob/master/Maquette1.PNG)
 ![Maquette traduction](https://github.com/Shadovokun/Scantrad/blob/master/Maquette2.PNG)
 ### Etapes pour le développement
