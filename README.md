@@ -18,11 +18,11 @@ Créer une application [**Electron**](https://electronjs.org/) capable de recevo
 
 ### Indications
 
- 1. Les oeuvres seront présentées par une image et leur titre sur la page d'accueil, si possible arrangées en grille.
+ 1. Les oeuvres seront présentées par une image et leur titre sur la page d'accueil, si possible arrangées en grille, comme sur la maquette Accueil.
  > **Astuce :** Cards [*Bootstrap*](https://getbootstrap.com/docs/4.0/components/card/) ou [*Materialize*](https://materializecss.com/cards.html)
 
- 3. Les extraits seront organisés par oeuvre, puis chapitre.
-Il sera donc intéressant de garder le cheminement de l'utilisateur.
+ 2. Les extraits seront organisés par oeuvre, puis chapitre.
+Il sera donc intéressant de garder le cheminement de l'utilisateur, comme visible sur la maquette Lecture.
 > **Astuce :** Breadcrumb [*Bootstrap*](https://getbootstrap.com/docs/4.1/components/breadcrumb/) ou [*Materialize*](https://materializecss.com/breadcrumbs.html) pour le visuel.  
 >[VueRouter](https://router.vuejs.org/) pour la dynamisation des pages.
 
@@ -32,8 +32,8 @@ Il sera donc intéressant de garder le cheminement de l'utilisateur.
 ### Maquettes
 ![Maquette accueil](https://github.com/Shadovokun/Scantrad/blob/master/MaquetteAccueil.PNG)
 ![Maquette fiche](https://github.com/Shadovokun/Scantrad/blob/master/MaquetteFiche.PNG)
-![Maquette lecture](https://github.com/Shadovokun/Scantrad/blob/master/Maquette1.PNG)
-![Maquette traduction](https://github.com/Shadovokun/Scantrad/blob/master/Maquette2.PNG)
+![Maquette lecture](https://github.com/Shadovokun/Scantrad/blob/master/MaquetteLecture.PNG)
+![Maquette traduction](https://github.com/Shadovokun/Scantrad/blob/master/MaquetteTraduction.PNG)
 ### Etapes pour le développement
 Après avoir cloné le projet en local :
 ``` bash
