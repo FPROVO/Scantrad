@@ -6,7 +6,7 @@ Créer une application [**Electron**](https://electronjs.org/) capable de recevo
 
 ### Contraintes techniques
 |Technologie | Description |
-|--|--|
+|-|-|
 | [**NodeJS**](https://nodejs.org/en/) | Création de l'application |
 |[**VueJS**](https://vuejs.org/) | Architecture de l'application |
 |[**Electron**](https://electronjs.org/) | Encapsulation de l'application |
@@ -23,8 +23,11 @@ Il sera donc intéressant de garder le cheminement de l'utilisateur.
 >[VueRouter](https://router.vuejs.org/) pour la dynamisation des pages.
 
  2.  Il faudra pouvoir récupérer et envoyer des données depuis et vers un serveur REST qui fera le relais vers la base de données.
- > **Exemple :** Utilisation de [Axios](https://github.com/axios/axios) pour faciliter les *GET* et *POST* de données
+ > **Exemple :** Utilisation de [Axios](https://github.com/axios/axios) pour faciliter les *GET* et *POST* de données.
 
+### Maquettes
+![Maquette lecture](https://github.com/Shadovokun/Scantrad/blob/master/Maquette1.PNG)
+![Maquette traduction](https://github.com/Shadovokun/Scantrad/blob/master/Maquette2.PNG)
 ### Etapes pour le développement
 
 ``` bash
