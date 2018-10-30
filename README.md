@@ -17,10 +17,10 @@ Créer une application [**Electron**](https://electronjs.org/) capable de recevo
 
 ### Indications
 
- - Les extraits seront organisés par oeuvre, puis chapitre.
+ 1. Les extraits seront organisés par oeuvre, puis chapitre.
 Il sera donc intéressant de garder le cheminement de l'utilisateur.
 > **Exemple :** Breadcrumb [*Bootstrap*](https://getbootstrap.com/docs/4.1/components/breadcrumb/) ou [*Materialize*](https://materializecss.com/breadcrumbs.html) pour le visuel.
 >  [VueRouter](https://router.vuejs.org/) pour la dynamisation des pages.
 
- - Il faudra pouvoir récupérer et envoyer des données depuis et vers un serveur REST qui fera le relais vers la base de données.
+ 2.  Il faudra pouvoir récupérer et envoyer des données depuis et vers un serveur REST qui fera le relais vers la base de données.
  > **Exemple :** Utilisation de [Axios](https://github.com/axios/axios) pour faciliter les *GET* et *POST* de données
